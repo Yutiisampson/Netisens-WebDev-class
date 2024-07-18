@@ -6,12 +6,50 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="index2.html">Go to  page</a>
-    <form action="">
-        <input type="text" placeholder="Enter your name">
-        <input type="number" placeholder="Enter your CVV">
-        <input type="email" placeholder="Enter your email">
-        <input type="search" placeholder="Search for anything">
-    </form>
+    <a href="index.html">Go to home page</a>
+
+    <form action="">   
+        <!-- <label for="1">name:</label> -->
+        <input id="1" type="text" placeholder="Enter your name" required><br>
+        <input type="number" placeholder="Enter your pnone number" required><br>
+        <input type="email" placeholder="Enter your email" required><br>
+        <input type="search" placeholder="Search for car brand" required><br>
+        
+    <!-- Radio -->
+
+    <h3>Select the color of your car</h3>
+    <input type="radio" id="black" name="color" checked>
+    <label for="black">Black</label><br>
+
+    <input type="radio" id="red" name="color">
+    <label for="red">Red</label><br>
+
+    <input type="radio" id="green" name="color">
+    <label for="green">Green</label><br>
+
+
+<!-- checkbox -->
+
+    <p>Select accessories</p>
+    <input type="checkbox" id="car-seat">
+    <label for="car-seat">Car seat</label><br>
+    
+    <input type="checkbox" id="spare-tyre">
+    <label for="spare-tyre">Spare tyre</label><br>
+
+    <input type="checkbox" id="extinguisher">
+    <label for="extinguisher">Fire extinguisher</label><br>
+
+    <input type="checkbox" id="exhaust">
+    <label for="exhaust">Exhaust pipe</label><br>
+
+<textarea name="" id="" placeholder="reviews" style="resize: none;"></textarea><br> 
+    <button>click</button>
+    <!-- or input type="button" value="click"> -->
+</form>
+
+
+
+
 </body>
 </html>
