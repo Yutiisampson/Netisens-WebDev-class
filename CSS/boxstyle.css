@@ -1,0 +1,37 @@
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body { width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+div{
+    
+    /* padding-left: 20px;
+    padding-top: 100px;
+    padding-right: 500px; */
+    /* padding: 50px 200px 400px 100px; padding clockwise */
+    /* padding: 0 200px; */
+    /*border-radius: 10%;  the curvature of the borderrsdius is determined by the percent */
+    /* padding-inline: 200px;
+    padding-block: 50px; */
+    padding: 10px;
+    background-color: blue;
+    border: 5px solid black;
+    width: 320px;
+    height: 10vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+
+
+    
+}
+p{
+
+}

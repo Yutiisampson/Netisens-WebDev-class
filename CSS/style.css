@@ -1,0 +1,32 @@
+h1{
+    color: red;
+    font-size: 100px;
+}
+
+h1:hover{background-color: darkslategrey; color: aqua; width: fit-content;
+}
+
+.green-text{
+    color: green ;
+}
+
+#blue-text{
+    color: blue;
+}
+   
+#blue-text:hover{color: red; background-color: cadetblue; width: fit-content;
+} 
+
+div{
+    background-color: orange;
+}
+
+div h1{
+    color: blueviolet;
+}
+/* div h1.white-text{
+    color: white;
+} */
+.white-text{
+    color: white;
+}
