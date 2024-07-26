@@ -1,0 +1,27 @@
+.container{
+background-color: blue;
+display: flex;
+color: white;
+width: fit-content;
+padding: 10px;
+gap: 10px;
+margin-inline: auto;
+
+}
+.container div{
+    background-color: rgb(188, 208, 231);
+    color: black;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
