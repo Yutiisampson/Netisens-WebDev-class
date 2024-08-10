@@ -1,0 +1,32 @@
+  /* Base styles for desktop */
+
+  .container-flex {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gold;
+}        
+.flex-item {
+    margin: 5px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    text-align: center;
+    flex: 1 1 30%;
+}       
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+.flex-item {
+    flex: 1 1 45%;
+}
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 480px) {  
+.flex-item {
+    flex: 1 1 100%;
+}
+}
