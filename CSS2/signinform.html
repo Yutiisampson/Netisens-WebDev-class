@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signinform.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Contact Us</h1>
+
+        <div class="flex">
+            <div class="form-input">
+                <label for="">First Name *</label>
+                <input type="text" placeholder="" required>
+            </div>
+            <div class="form-input">
+                <label for="">Last Name *</label>
+                <input type="text" placeholder="" required>
+            </div>
+        </div>
+
+        <div class="form-input">
+                <label for="">Email Address  *</label>
+                <input type="email" placeholder="" required>
+            </div>
+ 
+            <div class="radio-group">
+                <p>Query Type  *</p>
+                <div class="flex">
+                    <div class="radio-input"> 
+                        <input type="radio" required>
+                        <label for="">General Equiry</label>
+                    </div>
+                    <div class="radio-input"> 
+                        <input type="radio" required>
+                        <label for="">Support Request</label>
+                    </div>
+            </div>
+         </div>
+         
+         <div class="form-input">
+            <label for="">Message  *</label>
+            <textarea id="message" placeholder="" required></textarea>
+         </div>
+            
+          
+         <div class="checkboxes">
+            <input type="checkbox">
+            <label for="">I consent to be contacted by the team  *</label>
+        </div>
+          
+         <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+            
+    </form>
+</body>
+</html>
