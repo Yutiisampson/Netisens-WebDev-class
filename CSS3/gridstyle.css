@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.box{
+    background-color: blue;
+    /* width: 100px; */
+    height: 100px;
+    color: white;
+    font-size: 30px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 4fr;
+    width: 500px;
+    /* row-gap: 10px;
+    column-gap: 20px; */
+    gap: 20px;
+}

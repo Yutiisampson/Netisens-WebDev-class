@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.redbox {
+    width: 100px;
+    height: 100px;
+    background: red;
+    left: 0;
+    transition: width 2s , height 2s , left 5s , border-radius 5s;
+    position: relative;
+  }
+  .redbox:hover {
+    width: 300px;
+    height: 300px;
+    left: 70px;
+    border-radius: 1000px;
+  }
+
+  .orange{
+    color: orange;
+  }
+  .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    display: grid;
+    place-items: center;
+  }
