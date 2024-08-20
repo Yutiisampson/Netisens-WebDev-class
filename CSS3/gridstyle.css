@@ -6,15 +6,32 @@ body{
 .box{
     background-color: blue;
     /* width: 100px; */
-    height: 100px;
+    /* height: 100px; */
     color: white;
     font-size: 30px;
+    place-items: center;
+    justify-content: center;
 }
 .wrapper{
+    background: yellow;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 4fr;
-    width: 500px;
-    /* row-gap: 10px;
-    column-gap: 20px; */
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-columns: 2fr 3fr 3fr;
+    width: 1200px;
+    height: 500px;
     gap: 20px;
+    row-gap: 10px;
+    column-gap: 10px;
+    /* grid-template-columns: 60% calc(40%-20px); */
+   /* 
+    column-gap: 20px; */
 }
+.box:nth-child(2){
+    background-color: cadetblue;
+    grid-column: span 2;
+}
+.box:nth-child(4){
+    background-color: rgb(95, 105, 160);
+    grid-row: span 2;
+}
+
