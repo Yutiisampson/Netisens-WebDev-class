@@ -6,7 +6,7 @@
         var fruit1 = 'Banana';
         let fruit2 = "Orange";
         const fruit3 = `Apple`;
-        let myCountry = 'Nigeria'
+        let myCountry = 'Nigeria';
         console.log(myCountry)
 
         //Number datatype
