@@ -29,3 +29,10 @@
         //array
         myCountry = 'England'
         console.log(myCountry)
+
+        //object
+        let myObject={
+            name:"John",
+            age: 30,
+            city: "New York"
+        }
