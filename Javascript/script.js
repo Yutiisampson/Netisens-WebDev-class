@@ -35,4 +35,7 @@
             name:"John",
             age: 30,
             city: "New York"
-        }
+        };
+
+        alert("I am a boss");
+        
