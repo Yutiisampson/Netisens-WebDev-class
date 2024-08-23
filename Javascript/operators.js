@@ -33,9 +33,19 @@ console.log({a});
 let b ;
 console.log({b});
 
-// V =IR
-let v;
-let I 
+
+// fwfw
+let C = 50;
+let F; 
+
+F = C * (9/5) + 32;
+ console.log({F});
+
+//  num5 
+let num5 = 20;
+console.log({num5}); 
+num5+=1;
+console.log({num5});
 
 // let num1 = 20;
 // num1 = num1 + 1;
@@ -47,11 +57,28 @@ let I
 // Assignment Operators:
 
 // = (Assign): a = b
+// let country = 'Nigeria';
+
 // += (Add and assign): a += b (equivalent to a = a + b)
+let favNumber = 7;
+favNumber += favNumber;
+// console.log({favNumber});
+
 // -= (Subtract and assign): a -= b
+favNumber -= favNumber;
+// console.log({favNumber});
+
 // *= (Multiply and assign): a *= b
+favNumber *= favNumber;
+// console.log({favNumber});
+
 // /= (Divide and assign): a /= b
+favNumber/=5;
+// console.log({favNumber});
+
 // %= (Modulus and assign): a %= b
+favNumber %= 9.8;
+// console.log({favNumber});
 
 // let number1 = 2;
 // let number2 = 3;
@@ -65,19 +92,35 @@ let I
 // Comparison Operators:
 
 // == (Equal to): a == b
+console.log(5 =="5");
+
 // === (Strict equal to): a === b
+console.log(5 ==="5");
+
 // != (Not equal to): a != b
+console.log(5 !="5");
+
 // !== (Strict not equal to): a !== b
+console.log(5 !=="5");
 // > (Greater than): a > b
+console.log(5 < "5");
+
 // < (Less than): a < b
+console.log(5 > "5");
+
 // >= (Greater than or equal to): a >= b
+console.log(5 >= "5");
+
 // <= (Less than or equal to): a <= b
-// console.log(12 >= 12);
+console.log(5 <="5");
+
 
 // Logical Operators:
 
 // && (Logical AND): a && b
-// || (Logical OR): a || b
+console.log(12 <= 12 && 6 >= 12);
+
 // ! (Logical NOT): !a
+console.log(12 <= 12 || 6 >= 12);
 
 // console.log(10 > 2 && (4 > 5 || 5 > 2) )
