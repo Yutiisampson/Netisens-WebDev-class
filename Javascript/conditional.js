@@ -142,15 +142,15 @@ if(score.length > 0 && !isNaN(score) ){
     console.log('Score after converting to number: ' + score);
     if(score >=0 && score <= 100){
         if(score >= 70){
-            console.log('Congratulations, you scored an A');
+            console.log(`Congratulations, you scored ${score}, you have an A`);
         }else if(score >=60){
-            console.log('Congratulations, you scored a B');
+            console.log(`Congratulations, you scored ${score}, you have an B`);
         }else if(score >=50){
-            console.log('Congratulations, you scored a C');
+            console.log(`Congratulations, you scored ${score}, you have an C`);
         }else if(score >=45){
-            console.log('Congratulations, you scored a D');
+            console.log(`Congratulations, you scored ${score}, you have an D`);
         }else{
-            console.log('Congratulations, you scored an F, come back next year Dummy');
+            console.log(`Poor, you scored ${score}, you have an F`);
         }
     }else{
         console.log('invalid score, out of range')
@@ -173,33 +173,33 @@ if(score.length > 0 && !isNaN(score) ){
 //     add more cases as needed
 //     default:
 //       code to execute if expression doesn't match any case
-//   }
-let num = 2 + 5;
-switch (num){
-    case 7:
-        console.log('seven');
-        break;
-    case 4:
-        console.log('four');
-        break;
-    default:
-        console.log('invalid number');
-}
+// //   }
+// let num = 2 + 5;
+// switch (num){
+//     case 7:
+//         console.log('seven');
+//         break;
+//     case 4:
+//         console.log('four');
+//         break;
+//     default:
+//         console.log('invalid number');
+// }
 
 
 
-let word1 = 'happy';
-let word2 = 'birthday';
-let word3 = 'Tim';
+// let word1 = 'happy';
+// let word2 = 'birthday';
+// let word3 = 'Tim';
 
-//string concatenation method 
-console.log(word1 + ' ' + word2 + ' ' + word3)
-console.log('merry' +" "+ 'christmas')
+// //string concatenation method 
+// console.log(word1 + ' ' + word2 + ' ' + word3)
+// console.log('merry' +" "+ 'christmas')
 
 
 
-let word4 = 'good';
-let word5 = 'day';
-let word6 = 'mr';
-//string interpolation method
-console.log(`${word4} ${word5} to you, ${word6} tim`);
+// let word4 = 'good';
+// let word5 = 'day';
+// let word6 = 'mr';
+// //string interpolation method
+// console.log(`${word4} ${word5} to you, ${word6} tim`);
