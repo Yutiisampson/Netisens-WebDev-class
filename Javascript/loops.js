@@ -8,7 +8,6 @@
 //     // code to be executed
 // }
 
-// increment
 // for(let num = 10; num >= 0; num--){
 //     console.log(num);
 // }
@@ -22,21 +21,12 @@
 //         if(num % 3 === 0){
 //             console.log(num);
 //         }
-//     }
-   
+//     }   
 // }
+
 // for(let num = 1; num < 7; num++){
 //     console.log(num * 3)
 // }
-
-// let randomNumber = prompt('Enter a random number:');
-
-// if(randomNumber > 1000){
-//     console.log('number is greater than 1000');
-// }else{
-//     console.log('number is less than 1000');
-// }
-
 
 
 // while loop
@@ -74,31 +64,40 @@
 
 
 // for...in Loop: Used to iterate over the properties of an object.
+
 // for (let key in object) {
     // code to be executed
 //   }
 
 // example
-// let person = { 
-//     fname: "John", 
-//     lname: "Doe", 
-//     age: 25 
-// };
+let person = { 
+    fname: "John", 
+    lname: "Doe", 
+    age: 25 
+};
 
-// for (let key in person) {
-//     console.log(key + ": " + person[key]);
+
+// for (let prop in person) {
+//     // console.log(prop + ": " + person[prop]);
+//     console.log(`${prop}: ${person[prop]}`);
 // }
-  
+
+// // bracket notation
+// console.log(person["lname"]);
+
+// // Dot Notation
+// console.log(person.lname);
+
 // console.log(person.lname);
 // console.log(person['fname']);
 
-// let firstname = 'Jack';
-// let lastname = 'Robinson'
-// // console.log('my name is ' + firstname + " " + lastname);
+let firstname = 'Jack';
+let lastname = 'Robinson'
+// console.log('my name is ' + firstname + " " + lastname);
 // console.log(`my name is ${firstname} ${lastname}`);
-// let _name = "Maria";
-// _name+='-'
-// _name+='stella'
+let _name = "Maria";
+_name+='-'
+_name+='stella'
 // console.log(_name)
 
 // console.log(`"Hello 'Sam'"`);
@@ -112,16 +111,20 @@
 //   }
   
 // example
-// let numbers = [1, 2, 3, 4, 5];
-// for (let number of numbers) {
-//   console.log(number);
-// }
-// let dogs = ['german shepard', 'Terrier', 'ekuke']
+let numbers = [1, 2, 3, 4, 5];
 
-// for(let dog of dogs){
-//     console.log(dog);
-// }
-// console.log(dogs.length);
+for (let thing of numbers) {
+  console.log(thing);
+}
+
+
+let dogs = ['german shepard', 'Terrier', 'ekuke']
+
+for(let dog of dogs){
+    console.log(dog);
+}
+
+console.log(dogs.length);
 
 // console.log(dogs[5]);
 
