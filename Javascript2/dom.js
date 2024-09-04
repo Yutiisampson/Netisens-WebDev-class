@@ -61,6 +61,11 @@ console.log(allSpecialHeadings);
 const AfricanTExt = document.querySelector('section.box h3');
 AfricanTExt.style.color = 'green';
 
+const targetDiv = document.getElementById('box');
+console.log(targetDiv);
+
+
+
 // Changing Styles
 
 // const titleElement = document.getElementById("title");
