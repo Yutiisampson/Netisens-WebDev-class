@@ -1,6 +1,6 @@
 //Global Variables
 const passwordDisplay = document.querySelector('.password-output input');
-const passwordStrenghtIndicator = document.querySelector('#strenght-indicator');
+const passwordStrengthIndicator = document.querySelector('#strength-indicator');
 const passwordLength = document.querySelector('.details span');
 const passwordLengthRange = document.querySelector('.pass-length input');
 const lowerCaseElement = document.getElementById('lowercase');
@@ -110,33 +110,38 @@ function calculatePasswordStrength(password, passWordLength){
     }
 
     if(strength > 75){
-        passwordStrenghtIndicator.innerHTML = `
+        passwordStrengthIndicator.innerHTML = `
         <span class="active"></span>
         <span class="active"></span>
         <span class="active"></span>
         <span class="active"></span>
     `
     }else if(strength > 50){
-        passwordStrenghtIndicator.innerHTML = `
+        passwordStrengthIndicator.innerHTML = `
         <span class="active"></span>
         <span class="active"></span>
         <span class="active"></span>
         <span></span>
     `
     }else if(strength > 25){
-        passwordStrenghtIndicator.innerHTML = `
+        passwordStrengthIndicator.innerHTML = `
         <span class="active"></span>
         <span class="active"></span>
         <span></span>
         <span></span>
     `
     }else{
-        passwordStrenghtIndicator.innerHTML = `
+        passwordStrengthIndicator.innerHTML = `
         <span class="active"></span>
         <span></span>
         <span></span>
         <span></span>
     `
     }
-
+    
 }
+// const manualPasswordChange = () => {}
+// passwordDisplay.addEventListener('change' , manualPasswordChange)
+//     const passwordLength = passwordLengthRange.value;
+//     password = passwordDisplay.value;
+//     calculatePasswordStrength(password, passwordStrength);
